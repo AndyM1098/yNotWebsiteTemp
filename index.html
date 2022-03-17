@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='HandheldFriendly' content='True'>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <title>YNOT Robotics</title>
+    
+</head>
+
+<body>
+    <div class="slideshow" height:0 width:0>
+        <img id = "top-image" alt="Carousel Image">
+        <img id = "bot-image" alt="Carousel Image">
+        <p id = "pagesize-ref"></p>
+    </div>
+    
+    <div id="headerWrap">
+
+        <header class="__nav"><!-- header and navgiation bar put into one -->
+            
+            <div id="headerBackground"></div>
+
+            <div id="headerImage" >
+                <img src="images/YNOTgreen.png" alt="logo">  
+            </div>
+            
+            <div id="burgerMenu" onclick="mobileMenu(this)">
+                    <div id="line1"></div>
+                    <div id="line2"></div>
+                    <div id="line3"></div>
+            </div>
+            
+            <div id="navTable">
+
+                <a class="navLink" href="index.html" target="_self" rel="noreferrer noopener">Home</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">Meet The Team</a>        
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">VEX</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">Awards</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">Media</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">Sponsors</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">The Volunteer Spirit</a>
+                <a class="navLink" href="#" target="_self" rel="noreferrer noopener">Contact</a>                
+                <div id="test"></div> <!-- Mobile Menu bottom border!-->
+            </div>
+        </header>
+    </div> <!-- END - headerWrap -->
+    
+    <div id="bodyContent">
+
+        <div id="welcomeTextWrapper">
+            <p id ="welcomeText" class="textFont">WELCOME TO YNOT ROBOTICS</p>
+        </div>
+        
+        <div id="champWrapper">
+            <div id="champImg">
+                <img src="images/worlds4.jpg" alt="Champion Team Image">
+            </div>
+            
+            <div id="champTextWrapper">
+                <h1 class="textFont" id="champText"> 2020-2021 WORLD CHAMPIONS!</h1>
+                <p class="textFont" id="champText">Greenville, TX</p>
+                <p class="textFont" id="champText">June 25<sup>th</sup> - 26<sup>th</sup>, 2021</p>
+                <p class="textFont" id="champText">IFI Headquarters</p>
+            </div>    
+        </div>
+
+        <div id="missionWrapper">
+            <div id="missionTop">
+                <p class="textFont">OUR MISSION STATEMENT</p>
+            </div>
+            <div id="missionPara">
+                <p class="textFont">
+                    Here at YNOT, we strive to bring teams together 
+                    through the joy of engineering. In our four years as a team, we have mentored 
+                    hundreds of students, hosted tournaments, and volunteered across the American South.
+                    <br><br><br>
+                    Our ability to work together, fostering teamwork and a vigorous exchange of ideas, 
+                    allows us to succeed. We work tirelessly to improve our robots through the Engineering 
+                    Design Process. Our team members learn to build, code, perform complex CAD designs, 
+                    3D print materials, and machine parts for our robots. 
+                    <br><br><br>
+                    Our team is associated with the Tickle College of Engineering at the University of Tennessee
+                    Knoxville, and our team members use the work we perform in lab to supplement their 
+                    engineering education. While helping each other grow, we strive to do the very best we can 
+                    to create quality, innovative robots, and have fun while we're doing it; because after all... 
+                    YNOT.
+                </p>
+            </div>
+        </div>
+
+        <div id="bottomImageWrapper">
+            <div id="bottomImageText_W">
+                <h1 class="textFont">VEXU ROBOTICS CHALLENGES</h1>
+                <p class="textFont">Through the Years</p>
+            </div>
+            
+            <table id="imgTable" aria-hidden="true">
+                <tr>
+                    <td>
+                        <img src="icons/change-up.jpg" alt="HomePageImage">
+                    </td>
+                    <td>
+                        <img  src="icons/tower-takeover.jpg" alt="HomePageImage">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="icons/turning-point.jpg" alt="HomePageImage">
+                    </td>
+                    <td>
+                        <img src="icons/in-the-zone.jpg" alt="HomePageImage">
+                    </td>
+                </tr>                        
+            
+            </table>
+        </div>
+    </div> <!-- END - bodyContent -->
+
+    <!-- <div id="footerWrap"> -->
+    <div id="footer">
+        <div id="footer_1">         
+            <div id="footerOneupper">
+                <h1 id="footerOneText">Connect with us!</h1>
+            </div>
+            <div id="mediaIconTable">
+                <div>
+                    <a href="https://www.instagram.com/ynotrobotics/?hl=en" target="_blank" rel="noreferrer noopener">
+                        <img class="socialMediaIcon" src="icons/icons8-instagram.svg" alt="logo">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/ynotrobotics" target="_blank" rel="noreferrer noopener">
+                        <img class="socialMediaIcon" src="icons/icons8-facebook.svg" alt="logo">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/channel/UCUTvKjbn5Mcx42McvXRXbFQ" target="_blank" rel="noreferrer noopener">
+                        <img class="socialMediaIcon" src="icons/icons8-youtube.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_2">
+            <img id="footerClubLogo" src="images/sunsphere_logo_green.png" alt="logo">
+            <h3 class="footerText" style="font-size: 10px">2021 YNOT Robotics</h3>
+        </div>
+        <div id="footer_3">
+            <h1 class="footerText">Support the team!</h1>
+            <a href="#">Something!</a>
+        </div>
+    </div> <!-- Footer -->
+    
+
+    <script src = "js/mobilemenu.js"></script>
+    <!-- <script> //tablet screen size navtable scrolling
+    
+    function fixedNav() {
+
+        const navTop = document.querySelector('#headerImage').getBoundingClientRect();
+        console.log(navTop);
+        
+        if(window.innerWidth >= 480 && window.innerWidth < 767){//check for tablet size screen
+            if(navTop.top <= -79){//(window.scrollY >= navTop) {  
+                document.querySelector('#navTable').style.position = "absolute";
+                document.querySelector('#navTable').style.top = String(window.innerHeight);
+            }
+            else{
+                document.querySelector('#navTable').style.position = "absolute";
+                document.querySelector('#navTable').style.top = String(window.innerHeight);
+            }
+        }
+        else if(window.innerWidth >= 767){//reset if zoomed out
+            // document.querySelector('#navTable').style.removeProperty('position');
+            // document.querySelector('#navTable').style.removeProperty('top');
+        }
+    }
+    window.addEventListener('scroll', fixedNav);
+
+    </script> -->
+
+    <!-- <script>
+        let previous_match;
+
+        window.onload = navDisplayOnLoad();
+
+        function navDisplayOnLoad(){
+            if(window.innerWidth < 480){
+                document.querySelector('#navTable').classList.remove("navTable_open");
+                previous_match = false;
+            }else{
+                document.querySelector('#navTable').classList.add("navTable_open");
+                previous_match = true;
+            }
+        }
+
+        window.addEventListener('resize', displayNav);
+        
+        function displayNav(){
+            console.log(previous_match.matches);
+        
+            if(window.matchMedia('(min-width: 480px)').matches){
+                    document.querySelector('#navTable').classList.remove("navTable_open");                    
+            }else if(previous_match == false && !window.matchMedia('(min-width: 480px)').matches ){
+                    //do nothing
+                    
+            }else if(previous_match && !window.matchMedia('(min-width: 480px)').matches){
+                document.querySelector('#navTable').classList.remove("navTable_open");
+                if(document.querySelector('#burgerMenu').classList.contains("change")){
+                    document.querySelector('#burgerMenu').classList.remove("change");
+                }
+            }else if(!previous_match && !window.matchMedia('(min-width: 480px)').matches){
+                //do Nothing
+            }
+            previous_match = window.matchMedia('(min-width: 480px)').matches;
+        } -->
+    <script src="js/slideshow.js"></script>
+    <script src="js/resize.js"></script>
+
+</body>
+</html>
