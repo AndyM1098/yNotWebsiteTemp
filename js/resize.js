@@ -13,4 +13,4 @@ function reportResize() {
 
 reportResize();
 
-window.onresize = reportResize;
+window.onload = reportResize;
